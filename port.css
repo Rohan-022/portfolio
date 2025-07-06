@@ -1,7 +1,16 @@
 body{
-  background-color:rgba(69, 216, 202, 0.718) ;
+background: linear-gradient(to right, #e0f7fa, #b2ebf2);
+
   color: white;
 }
+body.dark-theme{
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  color: #ffffff;
+  /* overflow: hidden; */
+  position: relative
+}
+
+
 *{
   margin: 0;
   padding: 0;
@@ -11,7 +20,8 @@ nav{
   justify-content:space-around;
   align-items: center;
   height: 80px;
-  background-color:#A0F0E0 ;
+  background: linear-gradient(135deg, #2C3E50 0%, #4CA1AF 100%);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 nav ul{
   display: flex;
@@ -49,11 +59,11 @@ font-size: 1.7rem;
   
 }
 .rightsection img{
- width:400px;
+ width:500px;
  /* margin:50px 0; */
  border-radius: 50%;
  object-fit: cover;
- height: 400px;
+ height: 500px;
   
 }
 .purple{
@@ -96,7 +106,7 @@ margin:100px 0px;
 }
 .left a{
    text-decoration-line: none;
-  color: #814105fa; /* or any color you like */
+  color: #e9d6c4fa; /* or any color you like */
   font-size: 50px;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-weight: bold;
@@ -300,7 +310,7 @@ body.dark-theme .project-box {
   transition: background-color 0.3s, color 0.3s;
 }
 .me{
-  background-color:blue;
+  background:linear-gradient(to bottom, #dbeafe, #93c5fd); 
   margin: 40px 0;
   padding: 150px 0;
 
@@ -408,7 +418,7 @@ body.dark-theme .me p{
 .contact-form-box button {
   width: 100%;
   padding: 12px;
-  background-color: #1c11ed;
+  background-color: #8611ed;
   color: white;
   border: none;
   border-radius: 8px;
@@ -434,7 +444,7 @@ footer h2 {
 }
 
 .footer-nav a {
-  color: rgb(0, 0, 0);
+  color: white;
   text-decoration: none;
   font-weight: bold;
   font-size: 25px;
@@ -450,12 +460,15 @@ footer h2 {
 
 footer p {
   font-size: 14px;
-  color: #4100f3;
+  color: #b9b1d0;
 }
 body.dark-theme .right a{
   color:white;
 }
-
+body.dark-theme .me{
+  background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
+  color: #ffffff;
+}
 
 
 
